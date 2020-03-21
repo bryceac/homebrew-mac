@@ -7,7 +7,7 @@ class Rext < Formula
   url "https://github.com/bryceac/rext/archive/rext-0.1.tar.gz"
   sha256 "b9c7f357ba67e72ffdaee3f8bfabfce1897308450ccec9e965eba42aae0e2715"
 
-  # depends_on "cmake" => :build
+  depends_on :xcode => ["11.0", :build]
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel

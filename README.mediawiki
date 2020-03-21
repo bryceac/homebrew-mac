@@ -5,3 +5,11 @@ Homebrew formulae to install programs on Mac.
 ==Notes==
 
 Most formulas here should run fine, unlike the [https://github.com/bryceac/homebrew-linux Linux] repo, as long as the Xcode commandline tools have been installed.
+
+===Installation===
+
+To use repository, simply run the following command:
+
+<pre>
+brew tap bryceac/mac
+</pre>

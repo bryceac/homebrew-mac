@@ -2,9 +2,9 @@ class Rext < Formula
   desc "tool that can quickly change the extension of many files as simply as it is to use mv to rename a single file."
   homepage ""
   url "https://github.com/bryceac/rext/archive/rext-0.2.tar.gz"
-  sha256 "655d2f12d2288e6d9efb4487fbb3283beefc2e0f457d4d65cd936290923c7720"
+  sha256 "670f1846bb8b22c593a961dbd5f9ff9b2c81f7c0e4ecab0cdd985f8980848ea11"
 
-  depends_on :xcode => ["11.0", :build]
+  depends_on :xcode => ["11.4", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
